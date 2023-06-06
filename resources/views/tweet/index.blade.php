@@ -10,6 +10,7 @@
     <h1>hello world </h1>
     <div>
         <p>投稿</p>
+        <p>投稿</p>
         <form action="{{route('tweet.create')}}" method="post">
             @csrf
             <label for="tweet-content">つぶやき</label>
